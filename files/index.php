@@ -25,6 +25,12 @@
 
     <section>
         <?php
+            include("../includes/form.php");
+        ?>
+    </section>
+
+    <section>
+        <?php
             include("../includes/services.php");
         ?>
     </section>

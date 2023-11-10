@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 .dishes {
     background-color: yellow;
-    opacity: .9;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
 }
 
 .sub-heading {
@@ -26,7 +29,7 @@
 .box-container .box {
     background: #fff;
     border-radius: 20px;
-    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
+    box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, .7);
     align-items: center;
     font-size: 10px;
     display: flex;
