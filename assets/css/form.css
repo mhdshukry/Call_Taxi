@@ -9,10 +9,16 @@
 
 body {
     font-size: 15px;
-    color: #b9b9b9;
-    background-color: #e3e3e3;
-    /* padding-top: 60px; */
-    margin-bottom: 60px;
+    width: 100%;
+    background-image: url("https://melbournepremiumcab.com.au/wp-content/themes/melbournepremiumcab/images/banner2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #000;
+    margin-top: 80px;
 }
 
 
@@ -62,7 +68,6 @@ select {
     display: inline-block;
     width: 50%;
     text-align: center;
-    float: left;
     border-radius: 0;
 }
 
@@ -214,7 +219,21 @@ select option {
     background-color: #fff;
     border-radius: 4.2px;
     box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bg {
+    margin-top: 130px;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 5px 13px rgb(235, 193, 55);
+    z-index: 600;
 }
 
 .row {
@@ -263,4 +282,17 @@ select option {
 
 .province-district-container {
     display: flex;
+}
+
+.container .btns {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    background: black;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 12px;
+    width: 70%;
+    margin-left: 180px;
 }

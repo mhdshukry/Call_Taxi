@@ -8,7 +8,7 @@
       <ul class="nav-links">
         <i class="uil uil-times navCloseBtn"></i>
         <li><a href="../files/index.php">Home</a></li>
-        <li><a href="../files/pricelist.php">Price List</a></li>
+        <li><a href="../files/pricelist.php">Ride Now</a></li>
         <li><a href="../files/about.php">About Us</a></li>
         <li><a href="../files/contact.php">Contact Us</a></li>
         <li><a href="../files/profile.php">Profile</a></li>

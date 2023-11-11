@@ -40,10 +40,10 @@
 
 .hero-section .content button {
   background: red;
-  padding: 12px 30px;
+  padding: 12px 20px;
   border: none;
   font-size: 1rem;
-  border-radius: 6px;
+  border-radius: 50px;
   margin-top: 38px;
   cursor: pointer;
   font-weight: 500;
@@ -53,8 +53,9 @@
 
 .hero-section .content button:hover {
   color: black;
-  background: yellow;
+  background: rgb(235, 193, 55);
   font-weight: 500;
+  border-radius: 50px;
 }
 
 #close-menu-btn {

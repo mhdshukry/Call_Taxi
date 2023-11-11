@@ -18,14 +18,14 @@
             </div>
 
             <div class="box">
-                <img src="../assets/img/rtt.png">
-                <h3>CORPORATE TRAVEL</h3>
+                <img src="../assets/img/pngegg.png">
+                <h3>THREE WHEEL TRAVEL</h3>
                 <a href="#" class="btns">Read More</a>
             </div>
 
             <div class="box">
-                <img src="../assets/img/rtt.png">
-                <h3>LOCAL TRANSPORT</h3>
+                <img src="../assets/img/gg.png">
+                <h3>TWO WHEEL TRAVEL</h3>
                 <a href="#" class="btns">Read More</a>
             </div>
 

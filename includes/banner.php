@@ -9,7 +9,9 @@
         <p>
           Partner with us to drive your own livelihood and more.
         </p>
-        <a href="../files/contact.php"> <button>Contact Us</button></a>
+        <a href="../files/pricelist.php"> <button>Quick Ride</button></a>
+        
+
       </div>
     </section>
 

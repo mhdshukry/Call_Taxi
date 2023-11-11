@@ -66,3 +66,32 @@ function updateDistricts() {
         document.getElementById("district").add(option);
     }
 }
+
+
+
+
+
+var villagesByDistrict = {
+    "Puttalam": ["Kalpitiya", "Nuraicholai", "Palavi", "Puttalam"],
+    "Colombo": ["Colombo 1", "Colombo 2", "Colombo 3", "Colombo 4"],
+};
+
+function update() {
+    var districtSelect = document.getElementById("district");
+    var villageSelect = document.getElementById("end");
+    var selectedDistrict = districtSelect.value;
+
+    // Clear previous options
+    villageSelect.innerHTML = '';
+
+    // Populate villages based on the selected district
+    if (selectedDistrict in villagesByDistrict) {
+        var villages = villagesByDistrict[selectedDistrict];
+        villages.forEach(function (village) {
+            var option = document.createElement("option");
+            option.value = village;
+            option.text = village;
+            villageSelect.add(option);
+        });
+    }
+}
