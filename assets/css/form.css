@@ -15,6 +15,8 @@ body {
     margin-bottom: 60px;
 }
 
+
+
 h4 {
     color: #f0a500;
 }
@@ -145,6 +147,7 @@ select:active {
 
 select option {
     color: black;
+    background-color: #bd8200;
 }
 
 .input-group {
@@ -234,23 +237,13 @@ select option {
     width: 100%;
 }
 
-.col-half:last-of-type {
+/* .col-half:last-of-type {
     padding-right: 0;
-}
+} */
 
 .col-third {
-    padding-right: 400px;
     float: left;
-    width: 100%;
-}
-
-
-.col-third:last-of-type {
-    padding-right: 0;
-}
-
-.raw .sel {
-    display: flex;
+    width: 180%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -266,4 +259,8 @@ select option {
     .container {
         margin-top: 0;
     }
+}
+
+.province-district-container {
+    display: flex;
 }

@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Call Taxi</title>
+
     <link rel="stylesheet" href="../assets/css/services.css">
-</head>
-<body>
+
     <section class="dishes" id="Dishes">
         <h3 class="sub-heading">Our Services</h3>
         <div class="box-container">
@@ -46,5 +40,3 @@
         
 
     </section>
-</body>
-</html>
